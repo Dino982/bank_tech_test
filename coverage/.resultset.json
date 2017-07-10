@@ -5,7 +5,11 @@
         1,
         null,
         1,
-        2,
+        3,
+        null,
+        1,
+        1,
+        null,
         null,
         1,
         1,
@@ -14,10 +18,14 @@
       ],
       "/Users/andrewclarke/Projects/makers/week10/bank_tech_test/lib/account.rb": [
         1,
+        1,
+        null,
+        1,
+        2,
         null,
         null
       ]
     },
-    "timestamp": 1499708938
+    "timestamp": 1499709321
   }
 }
