@@ -17,6 +17,15 @@ date       || credit || debit   || balance
 10/01/2012 || 1000.00||         || 1000.00
 ```
 
+# Language
+
+ ruby 2.4.0
+
+ # Testing Framework
+
+ Rspec 3.6
+
+
 User Stories
 -----
 ```
