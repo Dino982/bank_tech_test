@@ -19,7 +19,16 @@ describe Account do
 
   describe '#withdraw' do
     it 'Subtracts withdrawal amount from the balance' do
+      account.deposit(100)
       expect { account.withdraw(10) }.to change { account.balance }.by(-10)
     end
+
+    it 'Will not allow funds to be withdrawn when balance is zero or less' do
+      account = Account.new
+      expect { account.withdraw(10) }.to raise_error('Insufficient money in account')
+    end
+
   end
+
+
 end

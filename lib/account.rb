@@ -10,6 +10,7 @@ class Account
   end
 
   def withdraw(amount)
+    fail 'Insufficient money in account' if @balance <= 0
     @balance -= amount
   end
 
