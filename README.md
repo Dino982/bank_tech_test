@@ -29,17 +29,21 @@ date       || credit || debit   || balance
 User Stories
 -----
 ```
-As a user,
+As a bank customer,
+So that I can manage my money,
+I would like to have a bank account.  
+
+As an account holder,
 So that I can add funds to my account,
 I would like to make deposits.
 
 
-As a user,
+As an account holder,
 So that I can spend my money,
 I would like to make withdrawals.
 
 
-As a user,
+As an account holder,
 So that I can see the balance in my account,
 I would like to see my account statement.
 
