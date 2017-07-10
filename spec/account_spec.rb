@@ -10,4 +10,10 @@ describe Account do
   it 'Starts with an initial balance of zero' do
     expect(account.balance).to eq(0)
   end
+
+  describe '#deposit' do
+    it 'Adds deposit amount to the balance' do
+      expect { account.deposit(100) }.to change { account.balance }.by(100)
+    end
+  end
 end
